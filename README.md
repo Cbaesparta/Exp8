@@ -14,7 +14,7 @@ While 2D arrays offer straightforward implementation and direct access to elemen
 ## Applications of 2D Arrays
 The theory behind 2D arrays is crucial for solving real-world problems in areas like mathematics, scientific computing, computer graphics, and data analysis. Their ability to organize data into a tabular format makes them a natural choice for algorithms that involve grids, image processing, or matrix-based computations. Though simple, the concepts of 2D arrays form the backbone for more complex structures and operations in C++.
 ## code
-
+```
 //name: Sai Sankar Jena
 //prn: 23070123112
 #include <iostream>
@@ -35,9 +35,9 @@ int main() {
         cout << endl;
     }
 }
-
+```
 ## output:
-
+```
 Enter element-(00): 12
 Enter element-(01): 23
 Enter element-(02): 34
@@ -50,9 +50,9 @@ Enter element-(22): 01
 12 23 34 
 56 67 78 
 89 90 1
-
+```
 ## code
-
+```
 //name: Sai Sankar Jena
 //prn: 23070123112
 
@@ -98,9 +98,9 @@ int main() {
     
     return 0;
 }
-
+```
 ## output:
-
+```
 Enter elements of the first matrix:
 Enter element at position (0, 0): 1
 Enter element at position (0, 1): 2
@@ -126,8 +126,9 @@ Sum of matrices:
 1 13 15 
 17 6 21 
 23 25 27 
-
+```
 ## code
+```
 //name: Sai Sankar Jena
 //prn: 23070123112
 #include <iostream>
@@ -175,9 +176,9 @@ int main() {
 
     return 0;
 }
-
+```
 ## output:
-
+```
 Enter elements of the first matrix:
 Enter element at position (0, 0): 1
 Enter element at position (0, 1): 2
@@ -202,8 +203,9 @@ Difference of matrices:
 1 1 1 
 1 -1 3 
 -1 4 9
-
+```
 ## code
+```
 //name: Sai Sankar Jena
 //prn: 23070123112
 #include <iostream>
@@ -233,9 +235,9 @@ int r1, c1, r2, c2;
 
     cout << "Enter elements of the second matrix:" << endl;
     for (int r = 0; r < r2; ++
-
+```
 ## output:
-
+```
 Enter rows and columns for the first matrix: 3
 3
 Enter rows and columns for the second matrix: 3
@@ -264,8 +266,9 @@ Resultant matrix:
 30 43 25 
 46 71 43 
 28 95 64
-
+```
 ## code
+```
 //name: Sai Sankar Jena
 //prn: 23070123112
 
@@ -303,9 +306,9 @@ int main() {
 
     return 0;
 }
-
+```
 ## output:
-
+```
 Enter the number of rows and columns of the matrix: 3 3
 Enter elements of the matrix:
 Enter element at position (0, 0): 1
@@ -322,9 +325,9 @@ Transpose of the matrix:
 1 4 6 
 2 5 7 
 3 6 8 
-
+```
 ## code
-
+```
 //name: Sai Sankar Jena
 //prn: 23070123112
 #include <iostream>
@@ -353,16 +356,16 @@ int main()
     diagSum(arr, 4); 
     return 0;
 }
-
+```
 ## output:
-
+```
 Sum of the diagonal elements is: 16
-
+```
 ## CONCLUSION:
 
 This experiment highlights key programming concepts, especially in organizing and manipulating multi-dimensional data using 2D arrays. We learned how to:
 
-~ Store and manipulate data efficiently: 2D arrays simplify operations like matrix addition, subtraction, and multiplication.
-~ Develop problem-solving skills: Implementing matrix operations enhances logical thinking by managing indices and loops.
-~ Understand memory management: Working with 2D arrays improves our understanding of memory allocation in programming.
-~ Apply to real-world scenarios: Matrix operations are crucial in fields like engineering, computer graphics, and machine learning, preparing us for complex problem-solving.
+1) Store and manipulate data efficiently: 2D arrays simplify operations like matrix addition, subtraction, and multiplication.
+2) Develop problem-solving skills: Implementing matrix operations enhances logical thinking by managing indices and loops.
+3) Understand memory management: Working with 2D arrays improves our understanding of memory allocation in programming.
+4) Apply to real-world scenarios: Matrix operations are crucial in fields like engineering, computer graphics, and machine learning, preparing us for complex problem-solving.
